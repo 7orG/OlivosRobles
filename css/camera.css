@@ -32,7 +32,8 @@
 	z-index: 0;
 	overflow:hidden;
     padding-bottom: 25px;
-	width: 100%;
+    padding-left: 120px;
+	width: 90%;
 }
 .camera_wrap img {
 	max-width: none !important;
