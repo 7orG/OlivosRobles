@@ -197,6 +197,14 @@ header {
 	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
 	text-align: center;
 }
+
+#header .topinfo {
+    font-size: 25px;
+    /*position: relative;
+    /*text-align: right;*/
+    right: 400px;
+    top: 50px;
+}
 /*-------- Logo -------- */
 .navbar-brand_ {
 	float: none;
@@ -205,10 +213,12 @@ header {
 	margin: 0;
 	text-align: center;
 	padding: 0;
-	margin: 20px auto 20px;
+	margin: 10px auto 0px;
 }
 .navbar-brand_ img {
-	max-width: 100%;
+	max-width: 110%;
+	padding-right: 900px;
+
 }
 .navbar-brand_a:hover {
 	text-decoration: none;
@@ -219,7 +229,7 @@ header {
 }
 .tm_navbar {
 	position: relative;
-	padding: 26px 0 22px;
+	padding: 10px 0 10px;
 	margin: 0;
 	background: none;
 	border: none;
@@ -1356,7 +1366,7 @@ address .info p:first-child {
 /*--- content end ------*/
 /*--------- footer --------- */
 footer {
-	padding: 64px 0;
+	padding: 5px 0;
 	background: url("../img/linefooter.jpg") top center repeat-x;
 }
 /*--------------social----------------*/
