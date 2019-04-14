@@ -2,6 +2,14 @@
 body {
 	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
 }
+
+/* --------------- top info ------------ */ 
+
+.topinfo {
+
+	padding-left: 700px;
+}
+
 /*----------- Back to top --------------*/
 #toTop {
 	display: none;
@@ -173,9 +181,9 @@ h3 {
 }
 .btn-link3 {
 	position: relative;
-	color: #eb5368;
+	color: 	#ffffff;
 	font-family: 'Georgia', serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
 }
@@ -189,7 +197,7 @@ h3 {
 	display: inline-block;
 }
 .btn-link3:hover {
-	color: #37383a;
+	color: #84AE41;
 	text-decoration: none;
 }
 /*------ header ------- */
@@ -213,13 +221,20 @@ header {
 	margin: 0;
 	text-align: center;
 	padding: 0;
-	margin: 10px auto 0px;
+	margin: 0px auto 0px;
 }
 .navbar-brand_ img {
 	max-width: 110%;
 	padding-right: 800px;
 
 }
+
+.navbar-brand_ref {
+	
+	margin-left: 900px;
+
+}
+
 .navbar-brand_a:hover {
 	text-decoration: none;
 }
@@ -294,7 +309,7 @@ header {
 	background-position: 0 0;
 }
 .tm_navbar .nav > li.sfHover > a, .tm_navbar .nav > li.sfHover > a:hover, .tm_navbar .nav > li > a:hover, .tm_navbar .nav > li.active > a, .tm_navbar .nav > li.active > a:hover {
-	color: #000000;
+	color: 	#84AE41;
 	background: transparent;
 }
 /*---------submenu1-------------*/
